@@ -5,7 +5,7 @@ body {
   background: #ebf0f5;
 }
 h1 {
-  color: #88b04b;
+  color: #39a1ff;
   font-weight: 900;
   font-size: 40px;
   margin-bottom: 10px;
@@ -16,7 +16,7 @@ p {
   margin: 0;
 }
 i {
-  color: #9abc66;
+  color: #39a1ff;
   font-size: 100px;
   line-height: 200px;
   margin-left: -15px;
@@ -36,4 +36,19 @@ i {
   width: 200px;
   background: #f8faf5;
   margin: 0 auto;
+}
+
+button {
+  margin-top: 40px;
+  border: 2px solid #39a1ff;
+  padding: 10px 20px;
+  color: #000;
+  background: transparent;
+  font-size: 20px;
+}
+button:hover {
+  color: #fff;
+
+  background: #39a1ff;
+  cursor: pointer;
 }
