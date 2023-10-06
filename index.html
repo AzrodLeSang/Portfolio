@@ -1,0 +1,342 @@
+<!DOCTYPE html>
+<html lang="fr">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta
+      name="description"
+      content="Bienvenue sur mon Portfolio, ici vous découvrirez mon parcours, mes compétences, ma personnalité et bien d'autres choses. "
+    />
+    <meta
+      name="keywords"
+      content="HTML, CSS, JavaScript, Jérémie Minetto, Jérémie, Minetto, Portfolio, developpeur web, développeur front-end, front-end"
+    />
+
+    <meta name="author" content="Jérémie Minetto" />
+    <!-- * librairie JS -->
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.4/jquery.min.js"></script>
+
+    <!-- * librairie écriture auto & icons -->
+    <script src="https://unpkg.com/typed.js@2.0.16/dist/typed.umd.js"></script>
+    <script src="https://unpkg.com/scrollreveal"></script>
+    <link
+      href="https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css"
+      rel="stylesheet"
+    />
+
+    <!-- * liens css customs -->
+    <link href="assets/css/style.css" rel="stylesheet" type="text/css" />
+
+    <!-- * police d'écriture -->
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Quicksand:wght@300;400;500;600;700&family=Roboto&display=swap"
+      rel="stylesheet"
+    />
+
+    <title>Portfolio Minetto Jérémie</title>
+  </head>
+
+  <body>
+    <!-- ! header -->
+    <header>
+      <a href="#" class="logo"><img src="assets/images/logo.png" /></a>
+      <div class="bx bx-menu" id="menu-icon"></div>
+      <ul class="navbar">
+        <li><a href="#accueil">Accueil</a></li>
+        <li><a href="#apropos">À propos</a></li>
+        <li><a href="#comp">Compétences</a></li>
+        <li><a href="#portfolio">Mon portfolio</a></li>
+        <li><a href="#contact">Contact</a></li>
+      </ul>
+    </header>
+    <!-- ! fin header -->
+
+    <!-- ! Accueil -->
+    <section class="accueil" id="accueil">
+      <div class="accueil-text">
+        <h4>Bonjour</h4>
+        <h1>
+          Jérémie<br />
+          Min<span>etto</span>
+        </h1>
+        <h3>Intégrateur front-end</h3>
+        <a href="#contact" class="btn">Contactez-moi</a>
+      </div>
+    </section>
+    <!-- ! Fin accueil -->
+
+    <!-- ! a propos -->
+    <section class="apropos" id="apropos">
+      <div class="apro-img">
+        <img src="assets/images/fond.jpg" />
+      </div>
+
+      <div class="apro-text">
+        <h2>À propos</h2>
+        <h4>Peut-être êtes-vous mon prochain employeur ?</h4>
+        <p>
+          Je suis Jérémie Minetto, jeune développeur front-end de 21 ans,
+          actuellement à la recherche d'un emploi tourner sur le développement
+          web front-end (HTML/CSS/JS), je serais ravis de partager avec vous mes
+          compétences ainsi que mes qualités :
+        </p>
+        <div class="apro-gri">
+          <div class="apro-in">
+            <h5>Assidu</h5>
+          </div>
+          <div class="apro-in">
+            <h5>Autonome</h5>
+          </div>
+          <div class="apro-in">
+            <h5>Sociable</h5>
+          </div>
+          <div class="apro-in">
+            <h5>À l'écoute</h5>
+          </div>
+        </div>
+        <a href="#contact" class="btn">Contactez-moi</a>
+      </div>
+    </section>
+
+    <!-- ! fin a propos -->
+
+    <!-- ! début services -->
+    <section class="services" id="comp">
+      <div class="main-text">
+        <h2>Mes compétences</h2>
+        <h4>Toujours en apprendre plus</h4>
+      </div>
+
+      <div class="services-content">
+        <div class="box">
+          <i class="bx bx-desktop"></i>
+
+          <h3>Développement web</h3>
+          <p>Capable de développer des sites web qualitatifs et design</p>
+        </div>
+        <div class="box">
+          <i class="bx bx-edit"></i>
+          <h3>Design de site web</h3>
+          <p>
+            Designer de sites web sobres, complexes, innovants et surprenants
+          </p>
+        </div>
+        <div class="box">
+          <i class="bx bx-devices"></i>
+          <h3>Mobile first</h3>
+          <p>
+            Le mobile first est devenu un priorité en matière de développement
+          </p>
+        </div>
+      </div>
+    </section>
+    <!-- ! fin services -->
+
+    <!-- ! debut portfolio -->
+
+    <section class="portfolio" id="portfolio">
+      <div class="main-text">
+        <h2>Mon portfolio</h2>
+        <h4>Quelques uns de mes travaux distingués</h4>
+      </div>
+
+      <div class="portfolio-content">
+        <div class="row">
+          <a href="https://azrodlesang.github.io/AzrodLeSang-github.io/">
+            <img src="assets/images/logoUndesign.png" alt="Logo undesign" />
+          </a>
+          <div class="portfolio-row">
+            <div class="row-text">
+              <h6>Développement</h6>
+            </div>
+            <div class="row-icon">
+              <i class="bx bx-heart heart1"></i>
+            </div>
+          </div>
+          <a href="https://azrodlesang.github.io/AzrodLeSang-github.io/">
+            <h3>Reproduction du site Undesign</h3>
+          </a>
+        </div>
+
+        <div class="row">
+          <a href="https://azrodlesang.github.io/PetService.github.io/">
+            <img src="assets/images/petservice.webp" alt="logo petservice" />
+          </a>
+          <div class="portfolio-row">
+            <div class="row-text">
+              <h6>Développement</h6>
+            </div>
+            <div class="row-icon">
+              <i class="bx bx-heart heart2"></i>
+            </div>
+          </div>
+          <a href="https://azrodlesang.github.io/PetService.github.io/">
+            <h3>Reproduction du site PetService 974</h3>
+          </a>
+        </div>
+
+        <div class="row">
+          <a>
+            <img
+              src="assets/images/construction.png"
+              alt="image en construction"
+            />
+          </a>
+          <div class="portfolio-row">
+            <div class="row-text">
+              <h6>Développement</h6>
+            </div>
+            <div class="row-icon">
+              <i class="bx bx-heart heart3"></i>
+            </div>
+          </div>
+          <a>
+            <h3>Site en cours de construction !</h3>
+          </a>
+        </div>
+
+        <div class="row">
+          <a>
+            <img
+              src="assets/images/construction.jpg"
+              alt="image en construction"
+            />
+          </a>
+          <div class="portfolio-row">
+            <div class="row-text">
+              <h6>Développement</h6>
+            </div>
+            <div class="row-icon">
+              <i class="bx bx-heart heart4"></i>
+            </div>
+          </div>
+          <a>
+            <h3>Site en cours de construction !</h3>
+          </a>
+        </div>
+        <div class="row">
+          <a>
+            <img
+              src="assets/images/construction.jpg"
+              alt="image en construction"
+            />
+          </a>
+          <div class="portfolio-row">
+            <div class="row-text">
+              <h6>Développement</h6>
+            </div>
+            <div class="row-icon">
+              <i class="bx bx-heart heart5"></i>
+            </div>
+          </div>
+          <a>
+            <h3>Site en cours de construction !</h3>
+          </a>
+        </div>
+
+        <div class="row">
+          <a>
+            <img
+              src="assets/images/construction.jpg"
+              alt="image en construction"
+            />
+          </a>
+          <div class="portfolio-row">
+            <div class="row-text">
+              <h6>Développement</h6>
+            </div>
+            <div class="row-icon">
+              <i class="bx bx-heart heart6"></i>
+            </div>
+          </div>
+          <a>
+            <h3>Site en cours de construction !</h3>
+          </a>
+        </div>
+      </div>
+    </section>
+    <!-- ! fin portfolio -->
+
+    <!-- ! début contact -->
+
+    <section class="contact" id="contact">
+      <div class="contact-text">
+        <h2>Contactez-moi</h2>
+        <h4>Travaillons ensemble <i class="bx bx-conversation"></i></h4>
+
+        <p>
+          N'hésitez pas, contactez-moi par message ou par mail pour une réponse
+          plus rapide.
+        </p>
+        <div class="contact-list">
+          <li>
+            <a href="#">Jérémie Minetto - Intégrateur HTML CSS JS</a>
+          </li>
+          <li><a href="#">Jeremie.minetto81@gmail.com</a></li>
+          <li><a href="#">+33 6 41 23 72 12 </a></li>
+        </div>
+
+        <div class="contact-icons">
+          <a href=""><i class="bx bxl-linkedin"></i></a>
+
+          <a href=""><i class="bx bxl-reddit"></i></a>
+          <a href=""><i class="bx bxl-twitter"></i></a>
+          <a href=""><i class="bx bxl-instagram"></i></a>
+        </div>
+      </div>
+
+      <div class="contact-form">
+        <form
+          method="POST"
+          name="contact"
+          data-netlify="true"
+          action="sucess.html"
+        >
+          <input
+            type="text"
+            name="name"
+            placeholder="Entrer votre nom"
+            required
+          />
+          <input
+            type="email"
+            name="email"
+            placeholder="Entrer votre mail"
+            required
+          />
+          <textarea
+            name="content"
+            cols="40"
+            rows="10"
+            placeholder="Entrer votre message"
+            required
+          ></textarea>
+          <input
+            type="submit"
+            value="Envoyer"
+            class="envoyer"
+            name="mailform"
+          />
+        </form>
+      </div>
+    </section>
+
+    <!-- ! fin contact -->
+    <div class="last-text">
+      <p>
+        Développé par Minetto Jérémie &copy; <span class="annee"></span> Tous
+        droits réservés
+      </p>
+    </div>
+
+    <!-- ! Scroll vers le haut -->
+
+    <a href="#" class="haut"><i class="bx bx-up-arrow-alt"></i></a>
+
+    <!-- * fichier js custom -->
+    <script type="text/JavaScript" src="assets/js/script.js"></script>
+  </body>
+</html>
